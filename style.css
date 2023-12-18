@@ -23,7 +23,7 @@ nav ul{
     display: flex;
     align-items: center;
     list-style-type: none;    
-    background-color: black;
+    background-color: rgb(5, 73, 73);
     height: 60px;
     color: white;
 }
@@ -53,7 +53,6 @@ nav ul li:hover{
 
 .search { 
     position: absolute; 
-
     margin: 0 200px 10px 450px;
     margin-left: 550px;
     margin-bottom: 20px; 
@@ -115,7 +114,7 @@ nav ul .user{
     background-color: black;
     color: bisque;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items:center;
 }
