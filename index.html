@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Musify - Yor music journey starts here!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul>
+            <li class="brand"><img src="logo.jpg" alt="musify"><span>Musify</span></li>
+            <li>Home</li>
+            <li>About</li>
+
+            <div class="search">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="searchSong" placeholder="Search Song">
+                
+            </div>
+            
+            <div class="user">
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+        </ul>
+    </nav>
+
+
+
+    
+    <main>
+        <div class="container">
+        
+            <div class="songList">
+                <h1>Best of Covers</h1>
+                
+            </div>
+            
+            <div class="banner">
+    
+            </div>
+    
+        </div>
+    </main>
+    
+
+
+
+    <div class="footer">
+
+        <div class="disclaimer">
+            <i class="fa-regular fa-copyright"></i>
+            <span>Musify, Inc.</span>
+        </div>
+
+        <div class="player">
+        
+            <input type="range" name="range" id="songProgress" min="0" max="100">
+            
+            <div class="icons">
+                <i class="fa-solid fa-2x fa-shuffle"></i>
+                <i class="fa-solid fa-2x fa-backward-step"></i>
+                <i class="fa-solid fa-2x fa-circle-play"></i>
+                <i class="fa-solid fa-2x fa-forward-step"></i>
+                <i class="fa-solid fa-2x fa-repeat"></i>
+            </div>
+    
+        </div>    
+    
+        <div class="volume">
+            <div class="volume-container">
+                <i class="fa-solid fa-volume-low"></i>
+                <input type="range" name="volumeControl" id="volumeControl" min="0" max="100">
+                <i class="fa-solid fa-volume-high"></i>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+    
+
+   
+
+    <script src="https://kit.fontawesome.com/5dbc1e8471.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
